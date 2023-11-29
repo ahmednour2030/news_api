@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "5ea5fdc8-da27-4072-92d3-469f7b30c605",
+		"name": "News",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9727640",
+		"_collection_link": "https://martian-spaceship-168955.postman.co/workspace/Supper-App~ea6258a5-b896-458e-a5e8-00443f072c2f/collection/9727640-5ea5fdc8-da27-4072-92d3-469f7b30c605?action=share&source=collection_link&creator=9727640"
+	},
+	"item": [
+		{
+			"name": "localhost/api/services",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/api/services",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"services"
+					],
+					"query": [
+						{
+							"key": "categroy",
+							"value": "dfgdgdgf",
+							"disabled": true
+						},
+						{
+							"key": "source",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "date",
+							"value": "11/27/2023",
+							"description": "month/day/year",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
